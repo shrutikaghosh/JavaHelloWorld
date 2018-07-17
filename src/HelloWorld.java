@@ -21,9 +21,10 @@ public class HelloWorld {
 	    
 	    String inputStream = null;
 	    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	    System.out.println("Hello, what is your name");	
 	    String name = reader.readLine();
 	    //inputStream = System.console().readLine();
-		System.out.println("Hello " + name);	
+		System.out.println("Hello " + name + "What is your age?");	
 
 	}
 
