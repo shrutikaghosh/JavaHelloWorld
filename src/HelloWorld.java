@@ -22,8 +22,11 @@ public class HelloWorld {
 	    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	    int calcOption = getCalcOption(reader);
 	    
-		System.out.print(calcOption);
-
+		System.out.print("You selected:" + calcOption + "\n");
+		System.out.println("Provide two integers of your choice-\n");
+		String number1 = reader.readLine();
+		String number2 = reader.readLine();
+		
 	}
 
 	/**
@@ -37,6 +40,7 @@ public class HelloWorld {
 		System.out.println("1.Add:\n");
 		System.out.println("2.Subtract\n");
 		System.out.println("3.Division\n");
+					
 		System.out.println("4.Multiplication:\n");
 		inputStream = reader.readLine();
 		return Integer.parseInt(inputStream);
