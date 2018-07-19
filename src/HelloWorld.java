@@ -25,6 +25,7 @@ public class HelloWorld {
 	    String name = reader.readLine();
 	    //inputStream = System.console().readLine();
 		System.out.println("Hello " + name + "What is your age?");	
+		inputStream =reader.readLine();
 
 	}
 
